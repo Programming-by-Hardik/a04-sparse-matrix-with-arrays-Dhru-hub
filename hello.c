@@ -34,27 +34,50 @@ int main() {
 void createSparseMatrix(int sparseMatrix[][3], int originalMatrix[][N], int rows, int cols) {
     //WRITE THE FUNCTION DESCRIPTION HERE
     
+// A sparse matrix format stores only the non-zero elements and their positions,
+// significantly reducing the memory usage when most elements in the matrix are zero.
 
+// Parameters:
+//   sparseMatrix[][3] - An output 2D array where each row contains:
+//                        - the row index,
+//                        - the column index,
+//                        - and the value of a non-zero element from the original matrix.
+//   originalMatrix[][N] - The input 2D matrix to be converted into sparse matrix format.
+//   rows - The number of rows in the original matrix.
+//   cols - The number of columns in the original matrix.
 
-
-
-
-
-
+// The function traverses the original matrix, identifies non-zero elements, and
+// stores their row index, column index, and value into the sparseMatrix array.
+    
 
 }
 
 // Function to print sparse matrix representation
 void printSparseMatrix(int sparseMatrix[][3], int nonZeroCount) {
     //WRITE THE FUNCTION DESCRIPTION HERE
+
+
+// The sparse matrix format is a 2D array where each row stores information about a non-zero element.
+// Each row in the sparseMatrix contains:
+//   - The row index of the non-zero element.
+//   - The column index of the non-zero element.
+//   - The value of the non-zero element.
+
+// Parameters:
+//   sparseMatrix[][3] - The sparse matrix array where each row contains the row index, 
+//                       column index, and the value of a non-zero element.
+//   nonZeroCount - The number of non-zero elements in the sparseMatrix (i.e., the number of rows in the sparse matrix).
+
+// The function will print the row index, column index, and value of each non-zero element in a tabular format.
+
+
+
+
+
+
+
+
     
-
-
-
-
-
-
-
 
 }
 
